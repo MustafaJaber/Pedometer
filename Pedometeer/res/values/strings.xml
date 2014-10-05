@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pedometer</string>
+    <string name="action_settings">Settings</string>
+    <string name="AvgSpeedLabel">Average Speed:</string>
+    <string name="StartServiceButton">Start Service</string>
+    <string name="StopServiceButton">Stop Service</string>
+    <string name="UpdateValButton">Update Values</string>
+    <string name="latLabel">Latitude:</string>
+    <string name="lonLabel">Longitude:</string>
+    <string name="DistLabel">Distance:</string>
+    <string name="ExitButton">Exit</string>
+    <string name="AccuracyButton">Check Accuracy</string>
+    <string name="AccuracyLabel">Accuracy:</string>
+    <string name="StepsLabel">Steps</string>
+    <string name="OrientLabel">Orientation</string>
+
+</resources>

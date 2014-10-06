@@ -2,7 +2,18 @@
 <resources>
 
     <string name="app_name">Pedometer</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="latitudeLabel">Latitude:</string>
+    <string name="longitudeLabel">Longitude:</string>
+    <string name="DistanceLabel">Distance:</string>
+    <string name="AvgSpeed">Average Speed:</string>
+    <string name="StartServiceButton">Start Service</string>
+    <string name="StopServiceButton">Stop Service</string>
+    <string name="UpdateValButton">Update Values</string>
+    <string name="ExitButton">Exit</string>
+    <string name="AccuracyButton">Check Accuracy</string>
+    <string name="Accuracy_Label">Accuracy:</string>
+    <string name="Steps_Label">Steps</string>
+    <string name="Orientation_Label">Orientation</string>
 
 </resources>

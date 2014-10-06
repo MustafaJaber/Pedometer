@@ -6,14 +6,18 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="15" />
+        android:targetSdkVersion="16" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
         <activity
-            android:name=".MainActivity"
+            android:name="com.mjaber.pedometer.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +25,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
-
+        <service android:name="com.mjaber.pedometer.services.PedometerService"
+            	 android:enabled ="true"
+            	 android:exported ="true"
+            	 android:permission="android.permission.ACCESS_FINE_LOCATION">           	          
+        </service>
+        <service android:name="com.mjaber.pedometer.services.DeadReckoningService"
+            	 android:enabled ="true"
+            	 android:exported ="true"
+            	 android:permission="android.permission.ACCESS_FINE_LOCATION">           	          
+        </service>
+    </application>  
 </manifest>
